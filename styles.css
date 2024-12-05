@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #fff4f4, #fff4f4);
+  }
+  
+  #party-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #controls {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #555;
+    transform: scale(1.1);
+  }
+  
+  #color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .color-btn {
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .color-btn {
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s ease-out;
+  }
+  
+  .color-btn:active {
+    transform: rotate(15deg) scale(0.95);
+  }
+  .color-btn {
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    animation: bounce 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .color-btn:hover {
+    transform: scale(1.1);
+
+  
+  .color-btn:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 40px currentColor;
+    transform: scale(1.1);
+  }
+  
+  #popular-color {
+    font-size: 1.2em;
+    margin-top: 20px;
+
+  }
+
